@@ -1,0 +1,17 @@
+{
+  "name": "restaurant-cicd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Restaurant website starter for GitHub Actions, GHCR, K3s and Argo CD",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

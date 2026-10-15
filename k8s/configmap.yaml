@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: restaurant-config
+  namespace: restaurant
+data:
+  NODE_ENV: "production"
+  PORT: "3000"
+  RESTAURANT_NAME: "Harbour Table"
