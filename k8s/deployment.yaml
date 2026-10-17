@@ -27,6 +27,8 @@ spec:
         runAsGroup: 1000
         seccompProfile:
           type: RuntimeDefault
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
         - name: restaurant-app
           image: ghcr.io/nexlink-technologies-ltd/restaurant-cicd-project:4b596e509e11de557f4bd618afe76e53a6599163
