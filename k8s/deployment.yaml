@@ -31,7 +31,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: restaurant-app
-          image: ghcr.io/nexlink-technologies-ltd/restaurant-cicd-project:4c4151448076572322732fbe3772c2f6ab8b183b
+          image: ghcr.io/nexlink-technologies-ltd/restaurant-cicd-project:81e511973fb082e7d34d21e52db6fce792c67d86
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
