@@ -13,7 +13,7 @@ A complete starter project for a restaurant web application using Node.js, Expre
 - Main-branch workflow publishes an immutable GHCR image and updates the deployment manifest; Argo CD reconciles the cluster from Git
 
 > This is a starter/demo application. It does not yet process real orders, payments, authentication, or persist customer data. Add those capabilities with suitable security and data protection before production.
-
+# Deployment platform: K3s with Argo CD GitOps
 ## 1. Create the GitHub repository
 1. Create a new GitHub repository named `restaurant-cicd` (or another name).
 2. Upload/push these files to the repository's `main` branch.
